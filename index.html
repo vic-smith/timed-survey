@@ -11,13 +11,19 @@
 
 <body>
 
-    <header></header>
-
-
-
-
-
-
+    <header>
+      <a href="high-scores">View high scores</a>
+      <a class ="timer" id="timer">Time:</a>
+    </header>
+    <container class ="container" id ="container">
+      <div class ="opening-page" id ="opening-page">
+        <h1 id="h1" class="H1">Coding Quiz Challenge</h1>
+        <p id="p">Try to answer the following questions within the time limit.</br>
+        Incorrect answers will reduce your available time by ten seconds.</br>
+        Good luck!</p>
+        <button id="startBtn" class="sbtn" onClick="start()">Start Quiz!</button>
+      </div>
+    </container>
   <script src="./assets/js/script.js"></script>
 </body>
 </html>
