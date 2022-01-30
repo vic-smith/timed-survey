@@ -6,15 +6,8 @@ var body = document.body;
 
 
 function start() {
-  
-  var countdown =setInterval(function(){
-  if (time <= 0){
-    clearInterval(countdown);
-  }
+
  
-   timerEl.innerHTML = "Time:" + time;
-  time-= 1;
-}, 1000);
 
   var remP = document.getElementById("p");
   remP.remove();
@@ -93,7 +86,15 @@ function start() {
 
   //document.createElement("h1").innerHTML = "Which of the following will allow you to iterate through a string?";
   //document.getElementById("startBtn").innerHTML = "if statement";
+  
+  var countdown =setInterval(function(){
+  if (time <= 0){
+    clearInterval(countdown);
+  }
  
+   timerEl.innerHTML = "Time:" + time;
+  time-= 1;
+}, 1000);
 
 };
 
