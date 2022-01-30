@@ -6,6 +6,16 @@ var body = document.body;
 
 
 function start() {
+  
+  var countdown =setInterval(function(){
+  if (time <= 0){
+    clearInterval(countdown);
+  }
+ 
+   timerEl.innerHTML = "Time:" + time;
+  time-= 1;
+}, 1000);
+
   var remP = document.getElementById("p");
   remP.remove();
   var remB = document.getElementById("startBtn");
@@ -87,14 +97,7 @@ function start() {
 
 };
 
-var countdown =setInterval(function(){
-  if (time <= 0){
-    clearInterval(countdown);
-  }
- 
-   timerEl.innerHTML = "Time:" + time;
-  time-= 1;
-}, 1000);
+
  
 
 

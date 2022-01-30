@@ -1,7 +1,40 @@
-# timed-survey
-## The project
-### Create a timed survey that reduces available time with incorrect answers and keeps the score of each attempt.
--Create an HTML that is accessed in the JavaScript.
--DOM elements are dynamically created and replaced as the user clicks on buttons that call functions in the JavaScript file.
--The first function to be called is a setInterval that begins at 75 seconds and counts down to zero.
--The second function replaces the opening page HTML with the question and possible answers.
+# Timed Survey
+
+[Timed-Survey]( https://vic-smith.github.io/timed-survey/)
+
+## Application Description
+This is a timed mulptiple choice game that was built using HTML, CSS, and Javascript.
+
+
+## Table of Contents
+* [Description](#application-description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributions](#contributions)
+* [Testing](#testing)
+* [Questions](#questions)
+
+## Installation
+NA
+
+## Usage
+Free to use.
+
+## License
+N/A
+
+## Contributions
+You can contribute by creating a new issue.
+
+## Testing
+N/A
+
+## Questions
+Please feel free to reach out with any questions or concerns. I can be reached at victorj500@gmail.com or on GitHub at github.com/vic-smith.
+
+
+![screenshot](./timed-survey.png)
+
+
+
